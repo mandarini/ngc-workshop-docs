@@ -1,4 +1,4 @@
-# Create a new Angular app using the CLI
+# Chapter 03 - Create a new Angular app using the CLI
 
 [previous chapter](Chapter_02.md) <----> [next chapter](Chapter_04.md) | [home](README.md)
 

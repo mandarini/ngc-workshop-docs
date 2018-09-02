@@ -1,4 +1,4 @@
-# Description of our application
+# Chapter 01 - Description of our application
 
 [previous chapter](README.md) <----> [next chapter](Chapter_02.md) | [home](README.md)
 

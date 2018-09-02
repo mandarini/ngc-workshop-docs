@@ -1,4 +1,4 @@
-# Set up Firebase in the console and the Angular app
+# Chapter 04 - Set up Firebase in the console and the Angular app
 
 [previous chapter](Chapter_03.md) <----> [next chapter](Chapter_05.md) | [home](README.md)
 

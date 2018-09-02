@@ -18,9 +18,10 @@ The users will need a web-development-friendly laptop (preferably a Unix-based s
 3. [Create a new Angular app using the CLI](Chapter_03.md)
 4. [Set up Firebase in the console and the Angular app](Chapter_04.md)
 5. [Set up Authentication](Chapter_05.md)
-6. Create our data in Firestore
-7. Fetch and post data
-8. Deploy
+6. Create our app components
+7. Create our data in Firestore
+8. Fetch and post data
+9. Deploy
 
 Let's begin!
 
