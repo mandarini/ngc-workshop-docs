@@ -13,8 +13,8 @@ The users will need a web-development-friendly laptop (preferably a Unix-based s
 
 ## Outline
 
-1. Designing the application - Setting Requirements - Drafting mockups
-2. Setting up working environments for Angular and Firebase development
+1. [Chapter 01 - Description of our application](Chapter_01.md)
+2. [Chapter 02 - Setting up working environments for Angular and Firebase development](Chapter_02.md)
 3. Create a new Angular app using the CLI
 4. Set up Firebase in the console and the Angular app
 5. Set up Authentication
@@ -24,4 +24,4 @@ The users will need a web-development-friendly laptop (preferably a Unix-based s
 
 Let's begin!
 
-[Go to first chapter](Chapter_01.md)
+[Go to first chapter - Description of our application](Chapter_01.md)
