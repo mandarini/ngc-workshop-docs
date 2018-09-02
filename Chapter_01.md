@@ -1,6 +1,6 @@
 # Description of our application
 
-[previous chapter]() <----> [next chapter](Chapter_02) | [home](README.md)
+[previous chapter](README.md) <----> [next chapter](Chapter_02.md) | [home](README.md)
 
 Today we will design and develop a simple chat application using [Angular](https://angular.io/), [Firebase](https://firebase.google.com/) and the [angularfire2](https://github.com/angular/angularfire2) library.
 
@@ -24,4 +24,4 @@ This is a chat application, so we will have the following requirements:
 8. Also, a place to store all these messages
 9. And a way to fetch these messages
 
-[previous chapter]() <----> [next chapter](Chapter_02) | [home](README.md)
+[previous chapter](README.md) <----> [next chapter](Chapter_02.md) | [home](README.md)
