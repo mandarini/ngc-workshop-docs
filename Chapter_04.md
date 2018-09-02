@@ -26,7 +26,7 @@ Now, we need to set up Firebase in our Angular application.
 
 Open the file `src/app/app.module.ts`.
 
-On the top of the file, copy and paste the following imports:
+1. On the top of the file, copy and paste the following imports:
 ```
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
@@ -34,7 +34,7 @@ import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 ```
 
-Below the imports, declare the `config` constant that contains all the configuration
+2. Below the imports, declare the `config` constant that contains all the configuration
 code for our Firebase:
 
 ```
@@ -54,5 +54,20 @@ In the *Get Started* section, if you click on the web app icon, you will find th
 configuration parameters of your project:
 ![Web Icon on Console](img/fbconsole1.png)
 ![Config Parameters](img/fbconsole2.png)
+
+3. Within the `@NgModule`, modify the imports array like this:
+```
+imports: [
+  BrowserModule,
+  AngularFireModule.initializeApp(config),
+  AngularFireDatabaseModule,
+  AngularFirestoreModule,
+  AngularFireAuthModule
+],
+```
+
+
+And now you are ready to go!
+Firebase is all set up!
 
 [previous chapter](Chapter_03.md) <----> [next chapter](Chapter_05.md) | [home](README.md)
