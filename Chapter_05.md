@@ -69,7 +69,7 @@ In order for this to work, we have to define this property as an input in our
 ```  
 @Input() userAuth: string;
 ```
-The `@Input` decorator defines the `userAuth` component property so that we can
+The `@Input` decorator declares the `userAuth` component property so that we can
 use it in our component.
 
 ### Creating the handling

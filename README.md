@@ -21,7 +21,8 @@ The users will need a web-development-friendly laptop (preferably a Unix-based s
 6. [Create our data in Firestore](Chapter_06.md)
 7. [Fetch and post data](Chapter_07.md)
 8. [Create the rest of our components](Chapter_08.md)
-9. [Deploy](Chapter_09.md)
+9. [Add Styles](Chapter_09.md)
+10. [Deploy](Chapter_10.md)
 
 Let's begin!
 
