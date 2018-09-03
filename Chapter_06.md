@@ -49,6 +49,16 @@ this:
 ## Add read-write rules
 
 Of course we want to secure our data and not let anyone do what they want with them.
+In this workshop we will only deny access to unauthenticated users. This means that
+whoever logs in will have access to read and write to our database. Rules can
+become more complex, and you can find all you need in the official Firebase [documentation](https://firebase.google.com/docs/firestore/security/get-started).
+
+At the moment, we will replace the existing rule to this:
+```
+allow read, write: if request.auth.uid != null;
+```
+which means that we allow read and write if the requested authorization uid is not null, which
+means "if a user is signed in".
 
 
 
