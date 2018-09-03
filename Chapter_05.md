@@ -56,9 +56,21 @@ In your `app.component.html` file, replace all the code with the following:
 As you can see, we are adding a conditional, which checks if there is an
 authenticated user present. In this case, the user is greeted, a log out button is
 displayed, along with our chat component (`<app-chat>`).
-
 If there is no authenticated user, the `showLogin` template is displayed, prompting
 the user to login.
+
+#### Small note
+Notice how we are passing the user's display name (_userAuth_) down into our child component (`<app-chat>`)
+as a property, `[userAuth]`.
+In order for this to work, we have to define this property as an input in our
+`ChatComponent`. So, open your `chat.component.ts` file and do the following:
+1. Add `Input` to your imports from `@angular/core`.
+2. On top of your chat component class, add the following line:
+```  
+@Input() userAuth: string;
+```
+The `@Input` decorator defines the `userAuth` component property so that we can
+use it in our component.
 
 ### Creating the handling
 

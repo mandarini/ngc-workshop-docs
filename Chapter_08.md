@@ -6,6 +6,8 @@ So, at the moment we have created an Angular application, we have set up Firebas
   using angularfire2 and on the console) we have set up authentication on the Firebase
   console and on the application and we have created a container component called `<app-chat>` which
   will our chat application (the content for authorized users).
+  We have also created our data collection and the ways to fetch data from it and post
+  data to it!
 
 Now, we need to create any other components we think we might need.
 It is quite useful and makes a cleaner code if we break up our application
@@ -49,9 +51,12 @@ Notice two things here:
 1. We are passing the user's display name (_userAuth_) down into our children components
 as properties, `[userAuth]`. The same way as we passed this property down to our `<app-chat>`
 component from `<app-root>`.
-2. We create a container for the messages, and inside that we are looping through the array
-of messages we are going to receive from Firebase (in the next step). Then, we are passing
-the received message again as a property to the `<app-message>` component.
+2. We create a container for the messages, and inside that we are looping through
+the `messages` array that we received from Firebase in the previous step. Then, we are passing
+each received message again as a property to the `<app-message>` component.
+
+
+
 
 
 
