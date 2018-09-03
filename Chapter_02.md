@@ -1,6 +1,10 @@
-# Chapter 02 - Setting up working environments for Angular and Firebase development
+# Chapter 02 - Setting up working environments
 
 [previous chapter](Chapter_01.md) <----> [next chapter](Chapter_03.md) | [home](README.md)
+
+First of all we need to set up our working environments for Angular and Firebase development.
+We will also set up git, in order for you to be able to clone the project from
+GitHub and deploy it in the end.
 
 ## Make sure you have git
 
@@ -8,6 +12,10 @@
 instructions.
 
 * If you are a __Windows__ user, check that you have installed [gitbash](https://gitforwindows.org/).
+
+Once you install git, make sure you have a [GitHub](https://github.com/) account, if you want
+to work with git, clone code and deploy your application to [GitHub pages](https://pages.github.com/)
+ in the end.
 
 ## Make sure nodejs and npm are installed and up to date with the latest versions
 
