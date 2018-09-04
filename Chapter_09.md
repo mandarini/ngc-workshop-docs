@@ -128,6 +128,18 @@ ngAfterViewChecked() {
 And now we are good to go!
 
 ## Input styles
+First of all, we need to modify our template code. Open your `input.component.html`
+and type the following code:
+```
+<div class="input-container">
+  <input #chatMsg name="chat-msg" type="text" placeholder="Type your message">
+  <button (click)="sendMsg(chatMsg.value)">
+     Post
+  </button>
+</div>
+```
+We just wrap everything in a `<div>`.
+
 Open your `input.component.css` and type the following code:
 ```
 .input-container {
