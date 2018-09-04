@@ -32,11 +32,11 @@ future needs.
 
 In your console, type:
 ```
-ng g s app
+ng g s chat
 ```
-which is short for `ng generate service app`.
+which is short for `ng generate service chat`.
 
-This will create a new service called `AppService` in the file `app.service.ts`.
+This will create a new service called `ChatService` in the file `chat.service.ts`.
 Open the file, and add the following imports:
 ```
 import { Message } from "./message.model";
@@ -45,7 +45,7 @@ import { AngularFirestore, AngularFirestoreCollection } from "angularfire2/fires
 We are importing our Message interface because we will need it to tell the collection
 what type of data to expect.
 
-In the `AppService` class define the `messages` as a Firestore Collection like this:
+In the `ChatService` class define the `messages` as a Firestore Collection like this:
 ```
 messages: AngularFirestoreCollection<Message>;
 ```

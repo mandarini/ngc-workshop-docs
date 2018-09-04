@@ -106,20 +106,20 @@ On clicking the button, the sendMsg() method is called with the value typed in t
 input field. So, let us create this method!
 
 ### The method for sending the message
-On top of your component, import the `AppService`, where we have already created a
+On top of your component, import the `ChatService`, where we have already created a
 method to send messages to our Firestore collection.
 ```
-import { AppService } from '../app.service';
+import { ChatService } from '../chat.service';
 ```
-In our constructor, let's declare the `AppService` as `msgService`:
+In our constructor, let's declare the `ChatService` as `msgService`:
 ```
-constructor(private msgService: AppService) { }
+constructor(private msgService: ChatService) { }
 ```
 so that we can use it in our `sendMsg()` method.
 
 And now, let's create our `sendMsg()` method!
 If the click send and the message is not empty, then call the `.addMsg()` method
-of our `AppService` with the message:
+of our `ChatService` with the message:
 ```
 sendMsg(msg) {
   if (msg !== null) {
