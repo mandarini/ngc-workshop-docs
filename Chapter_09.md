@@ -98,7 +98,8 @@ and in order to see older messages you would have to scroll up.
 So, how do we do this?
 We need a reference to our chat container HTML element, so that we can manipulate it
 in our component. We also need this to run after our view is checked and updated.
-So, first of all we import the necessary things from `@angular/core`:
+
+Open your `chat.component.ts`. First of all we import the necessary things from `@angular/core`:
 ```
 import { Component, OnInit, Input, AfterViewChecked, ElementRef, ViewChild } from '@angular/core';
 ```
