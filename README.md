@@ -1,6 +1,6 @@
 # Getting Real-Time with Firebase and Angular
 
-A workshop delivered by Katerina Skroumpelou at [ngColombia 2018](https://www.ngcolombia.com/).
+A workshop delivered by [Katerina Skroumpelou](https://twitter.com/psybercity) at [ngColombia 2018](https://www.ngcolombia.com/).
 
 ## Description
 
