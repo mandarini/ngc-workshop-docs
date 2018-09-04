@@ -95,7 +95,6 @@ Everything is uploaded on GitHub now.
 7. Now your project is published!
 
 _An extra tip:
-
 You might want to hide API keys and configuration from your "unbuilt" code.
 In that case you can remove them from the `app.module.ts` and push your code again.
 The build in the docs folder will not be affected of course (until you build it again).
