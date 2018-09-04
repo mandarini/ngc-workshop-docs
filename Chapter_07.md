@@ -11,7 +11,7 @@ First of all let us define how our Message objects will look. We will create an
 interface to define the requirements of these objects, so that we can later use it
 as a type for the contents of our collections.
 
-In the app folder, create a file named `app.model.ts` and type the following code in it:
+In the app folder, create a file named `message.model.ts` and type the following code in it:
 ```
 export interface Message {
     user: string;
@@ -39,7 +39,7 @@ which is short for `ng generate service app`.
 This will create a new service called `AppService` in the file `app.service.ts`.
 Open the file, and add the following imports:
 ```
-import { Message } from "./app.model";
+import { Message } from "./message.model";
 import { AngularFirestore, AngularFirestoreCollection } from "angularfire2/firestore";
 ```
 We are importing our Message interface because we will need it to tell the collection
