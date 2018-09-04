@@ -1,4 +1,4 @@
-# Chapter 08 - Fetch and post data
+# Chapter 08 - Create the rest of our components
 
 [previous chapter](Chapter_07.md) <----> [next chapter](Chapter_09.md) | [home](README.md)
 

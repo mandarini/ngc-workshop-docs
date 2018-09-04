@@ -1,6 +1,6 @@
 # Chapter 07 - Fetch and post data
 
-[previous chapter](Chapter_06.md) <----> [next chapter](Chapter_08.md) | [home](README.md
+[previous chapter](Chapter_06.md) <----> [next chapter](Chapter_08.md) | [home](README.md)
 
 Now that we have created our collection in the Cloud Firestore through our console,
 we can start fetching and posting data from and to it.
