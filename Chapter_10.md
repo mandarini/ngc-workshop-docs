@@ -82,10 +82,10 @@ This will be your 404 page, obviously.
     git push
     ```
 Everything is uploaded on GitHub now.
-5. Go to the GitHub page of your project and go to the _Settings_ tab.
-6. Scroll all the way down to the _GitHub Pages_ section.
-7. As _Source_, select __master branch /docs folder__ and click _Save_.
-8. Now your project is published!
+4. Go to the GitHub page of your project and go to the _Settings_ tab.
+5. Scroll all the way down to the _GitHub Pages_ section.
+6. As _Source_, select __master branch /docs folder__ and click _Save_.
+7. Now your project is published!
 
 An extra tip:
 You might want to hide API keys and configuration from your "unbuilt" code.
