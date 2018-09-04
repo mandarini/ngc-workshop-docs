@@ -62,6 +62,7 @@ git push -u origin master
 
 Following the steps of [this](https://github.com/angular/angular-cli/wiki/stories-github-pages)
 awesome guide here:
+
 1. In your terminal, in your project folder, type:
 ```
 ng build --prod --output-path docs --base-href https://YOURUSERNAME.github.io/YOUR-PROJECT-NAME/
@@ -70,8 +71,10 @@ This will build your project, and add as a base link to it the future link of
 your project (all your projects that are published on GitHub pages are under
   `https://YOURUSERNAME.github.io/`). It will also add the build in a folder named
   `/docs`.
+
 2. As it says in the guide, _Make a copy of docs/index.html and name it docs/404.html_.
 This will be your 404 page, obviously.
+
 3. Now, notice how we have made changes to our project! So, what do we do?
   * We tell git that we made changes:
     ```
@@ -82,9 +85,13 @@ This will be your 404 page, obviously.
     git push
     ```
 Everything is uploaded on GitHub now.
+
 4. Go to the GitHub page of your project and go to the _Settings_ tab.
+
 5. Scroll all the way down to the _GitHub Pages_ section.
+
 6. As _Source_, select __master branch /docs folder__ and click _Save_.
+
 7. Now your project is published!
 
 An extra tip:
