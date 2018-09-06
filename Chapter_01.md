@@ -38,7 +38,7 @@ At the end of each chapter:
 1. Go to the [GitHub repository](https://github.com/mandarini/ngc-workshop) of this workshop.
 2. Choose the chapter you are on from the Tags list in the branches drop down menu on the top
 right, like this:
-![Branches and tags](branches.png)
+![Branches and tags](img/branches.png)
 3. Browse the files and check your code! Always check that on the drop-down menu
 you are on the correct tag (chapter)!
 
