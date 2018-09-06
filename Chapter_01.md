@@ -24,4 +24,46 @@ This is a chat application, so we will have the following requirements:
 8. Also, a place to store all these messages
 9. And a way to fetch these messages
 
+## How to stay on the same page as everyone
+
+Ok, so this is how it's going to work!
+As we move along, chapter by chapter, you will be making changes to your code.
+If you want to make sure that what you have is aligned with what you should have
+(and what is taught and what everyone has), then you have two options:
+
+### 1st option: check GitHub
+
+At the end of each chapter:
+
+1. Go to the [GitHub repository](https://github.com/mandarini/ngc-workshop) of this workshop.
+2. Choose the chapter you are on from the Tags list in the branches drop down menu on the top
+right, like this:
+![Branches and tags](branches.png)
+3. Browse the files and check your code! Always check that on the drop-down menu
+you are on the correct tag (chapter)!
+
+### 2nd option: Checkout the code from GitHub on each chapter-tag
+
+At the end of each chapter:
+
+1. Clone the [GitHub repository](https://github.com/mandarini/ngc-workshop) of this workshop.
+```
+git clone https://github.com/mandarini/ngc-workshop.git
+```
+2. Checkout to the corresponding chapter tag for each chapter:
+    * ```
+      git fetch --all --tags --prune
+      ```
+      to fetch all the tags locally
+    * ```
+      git checkout tags/tag-name
+      ```
+3. Check your code!
+
+### Note
+
+_We are not using the checkout option for all the workshop, because I want you to learn
+to create a new Angular app, a new project, a new repository, and deploy it in the end!_
+
+
 [previous chapter](README.md) <----> [next chapter](Chapter_02.md) | [home](README.md)
