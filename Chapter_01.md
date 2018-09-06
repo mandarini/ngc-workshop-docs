@@ -46,18 +46,18 @@ you are on the correct tag (chapter)!
 
 At the end of each chapter:
 
-1. Clone the [GitHub repository](https://github.com/mandarini/ngc-workshop) of this workshop.
+1. Clone the [GitHub repository](https://github.com/mandarini/ngc-workshop) of this workshop:
 ```
 git clone https://github.com/mandarini/ngc-workshop.git
 ```
+2. Fetch all the tags locally:
+```
+git fetch --all --tags --prune
+```
 2. Checkout to the corresponding chapter tag for each chapter:
-    * ```
-      git fetch --all --tags --prune
-      ```
-      to fetch all the tags locally
-    * ```
-      git checkout tags/tag-name
-      ```
+```
+git checkout tags/tag-name
+```
 3. Check your code!
 
 ### Note
