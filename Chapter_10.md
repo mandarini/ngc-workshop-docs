@@ -94,6 +94,14 @@ Everything is uploaded on GitHub now.
 
 7. Now your project is published!
 
+8. Careful! Don't forget to add `https://YOURUSERNAME.github.io/` to the authorized
+domains in your Firebase console in the Authentication section, as we said in
+[Chapter 5](Chapter_05.md). You can do that if you go to your project on the
+[Firebase console](https://console.firebase.google.com/), choose _Authentication_
+from the side menu, and on the _Sign-in Method_ tab scroll to the second
+section named _Authorized domains_. Click on _Add Domain_ and add your
+`https://YOURUSERNAME.github.io/` domain there! Now it should work!
+
 _An extra tip:
 You might want to hide API keys and configuration from your "unbuilt" code.
 In that case you can remove them from the `app.module.ts` and push your code again.
