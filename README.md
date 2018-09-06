@@ -23,6 +23,7 @@ The users will need a web-development-friendly laptop (preferably a Unix-based s
 8. [Create the rest of our components](Chapter_08.md)
 9. [Add Styles](Chapter_09.md)
 10. [Deploy](Chapter_10.md)
+11. [Extras](Chapter_11.md)
 
 Let's begin!
 

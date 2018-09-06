@@ -1,6 +1,6 @@
 # Chapter 10 - Deploy
 
-[previous chapter](Chapter_09.md) | [home](README.md)
+[previous chapter](Chapter_09.md) <----> [next chapter](Chapter_11.md) | [home](README.md)
 
 Now that all is said and done, we are ready to deploy!
 A nice step by step guide found in the Angular-CLI GitHub repo is [here](https://github.com/angular/angular-cli/wiki/stories-github-pages).
@@ -102,4 +102,4 @@ This does not guarantee security, of course, since anyone can see the API keys i
 past commits or in the build, however it's just a small thin layer of
 security._
 
-[previous chapter](Chapter_09.md) | [home](README.md)
+[previous chapter](Chapter_09.md) <----> [next chapter](Chapter_11.md) | [home](README.md)
