@@ -11,7 +11,7 @@ First of all let us define how our Message objects will look. We will create an
 interface to define the requirements of these objects, so that we can later use it
 as a type for the contents of our collections.
 
-In the app folder, create a file named `message.model.ts` and type the following code in it:
+In the app folder, create a file named `message.model.ts` (or do ```ng g i message```) and type the following code in it:
 ```
 export interface Message {
     user: string;
